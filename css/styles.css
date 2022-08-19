@@ -46,6 +46,7 @@ body {
     list-style-type:none;
 }
 
+
 .nav-link {
     color: var(--main-text-color);
     text-decoration: none;
@@ -55,9 +56,12 @@ body {
     letter-spacing: 0.02em;    
 }
 
-.nav-link:hover, :focus {
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
     color: var(--accent-color);
 }
+
 
 .contact-item {
     list-style-type: none;
@@ -243,7 +247,7 @@ body {
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden;
+   overflow: hidden;
 }
 
 
@@ -264,7 +268,8 @@ body {
     letter-spacing: 0.03em;
 }
 
-.portfolio-btn:hover, :focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     background-color: var(--accent-color);
 }
 
