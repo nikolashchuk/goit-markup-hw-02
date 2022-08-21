@@ -33,7 +33,7 @@ body {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
 }
@@ -52,7 +52,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;    
 }
 
@@ -73,7 +73,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
 
@@ -92,7 +92,7 @@ body {
 .hero-text {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -103,7 +103,7 @@ body {
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8;
     display: flex;
     align-items: center;
     text-align: center;
@@ -135,7 +135,7 @@ body {
 .feature-item {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -143,7 +143,7 @@ body {
 .feature-text {
     color: var(--secondary-text-color);
     font-size: 14px;
-    line-height: 24px;
+    line-height: 0.58;
     letter-spacing: 0.03em;
 }
 
@@ -154,7 +154,7 @@ body {
 .about-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -171,7 +171,7 @@ body {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 0.85;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -187,7 +187,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 0.84;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -196,7 +196,7 @@ body {
     color: var(--secondary-text-color);
     font-family: 'Roboto';
     font-size: 16px;
-    line-height: 19px;
+    line-height: 0.84;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -213,7 +213,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 0.83;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
@@ -226,19 +226,25 @@ body {
 
 }
 
+
 .adress {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 0.58;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
+.adress:focus,
+.adress:hover {
+    color: var(--accent-color);
+}
+
 /* portfolio */
 
-.portfolio-title {
+.portfolio-title-hero {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -255,6 +261,7 @@ body {
 /* кнопки портфолио */
 
 .portfolio-btn-list {
+    font-family: inherit;
     list-style-type:none;
 }
 
@@ -264,7 +271,7 @@ body {
     color: var(--main-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 0.61;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -272,26 +279,33 @@ body {
 .portfolio-btn:hover,
 .portfolio-btn:focus {
     background-color: var(--accent-color);
+    color: #fff;
 }
 
 /* список елементів порфоліо */
+
+.portfolio-link{
+    text-decoration: none;
+}
 
 .portfolio-list {
     list-style-type: none;
 }
 
 .portfolio-title {
+    text-decoration: none;
     color: var(--main-text-color);
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 0.5;
     letter-spacing: 0.06em;
 
 }
 
 .portfolio-text {
+    text-decoration: none ;
     color: var(--secondary-text-color);
     font-size: 16px;
-    line-height: 30px;
+    line-height: 0.53;
     letter-spacing: 0.03em;
 }
