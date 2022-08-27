@@ -254,24 +254,24 @@ body {
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-   overflow: hidden;
+    overflow: hidden;
 }
 
 
 /* кнопки портфолио */
 
 .portfolio-btn-list {
-    font-family: inherit;
     list-style-type:none;
 }
 
 .portfolio-btn {
+    font-family: inherit;
     cursor: pointer;
     background-color: #F5F4FA;
     color: var(--main-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.61;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -297,7 +297,7 @@ body {
     color: var(--main-text-color);
     font-weight: 700;
     font-size: 18px;
-    line-height: 0.5;
+    line-height: 2;
     letter-spacing: 0.06em;
 
 }
